@@ -2,8 +2,10 @@ header{
     color: black;
     text-align: center;
     background-color: aqua;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
+    width: 100%;
+    margin-top: -10px;
 }
 
 body{
