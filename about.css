@@ -7,8 +7,11 @@ header{
 }
 
 #mainBod{
-    width: 1000px;
     text-align: center;
+}
+
+#bodyText{
+    width: 1000px;
 }
 
 .toolbarText{
