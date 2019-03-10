@@ -4,12 +4,10 @@ header{
     background-color: #6299ff;
     padding-top: 30px;
     padding-bottom: 20px;
-    width: 100%;
+    margin-left: -10px;
+    margin-right: -10px;
     margin-top: -10px;
 }
-
-
-
 #mainBod{
     padding-left: 200px;
     width: 1000px;
