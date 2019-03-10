@@ -7,6 +7,7 @@ header{
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    font-size: 20px;
 }
 
 
@@ -15,8 +16,6 @@ header{
     text-align: center;
 }
 
-#bodyText{
-}
 
 .toolbarText{
     text-decoration: none;
@@ -34,4 +33,5 @@ img{
 }
 html{
     background-color: #E9EBEE;
+    font-family: "Lucida Console", Monaco, monospace;
 }

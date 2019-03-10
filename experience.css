@@ -7,7 +7,13 @@ header{
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    font-size: 20px;
 }
+
+h3{
+    padding-top: 50px;
+}
+
 #mainBod{
     padding-left: 200px;
     width: 1000px;
@@ -26,4 +32,5 @@ header{
 
 html{
     background-color: #E9EBEE;
+    font-family: "Lucida Console", Monaco, monospace;
 }
