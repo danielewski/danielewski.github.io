@@ -11,6 +11,9 @@ body{
     text-align: center;
     padding-left: 200px;
 }
+img{
+    height: 200px;
+}
 
 .toolbarText{
     text-decoration: none;
