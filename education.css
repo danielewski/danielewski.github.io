@@ -6,7 +6,9 @@ header{
     padding-bottom: 20px;
 }
 
-
+body{
+    text-align: center;
+}
 
 #mainBod{
     padding-left: 200px;
