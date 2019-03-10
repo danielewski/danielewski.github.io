@@ -13,3 +13,8 @@ header{
     text-decoration: none;
     color: black;
 }
+
+.compName{
+    color: red;
+    text-decoration: none;
+}
