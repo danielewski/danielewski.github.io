@@ -17,6 +17,10 @@ header{
     padding: 100px;
 }
 
+img{
+    height: 200px;
+}
+
 .compName{
     color: navy;
     text-decoration: none;
