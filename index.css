@@ -1,27 +1,32 @@
-header{
+header {
     color: black;
     text-align: center;
     background-color: #6299ff;
-    padding-top: 25px;
     height: 50px;
+    padding-top: 20px;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
     font-size: 20px;
     box-shadow: 10px 10px 20px 1px gray;
+    
 }
 
-
+.toolbarText {
+    text-decoration: none;
+    color: white;
+    margin: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 5px;
+    border-color: white;
+}
 
 body{
     text-align: center;
 }
 
-.toolbarText{
-    text-decoration: none;
-    color: black;
-    padding: 100px;
-}
 html{
     background-color: #E9EBEE;
     font-family: "Lucida Console", Monaco, monospace;
