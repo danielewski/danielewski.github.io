@@ -6,14 +6,18 @@ header{
     padding-bottom: 20px;
 }
 
-
-
 #mainBod{
     padding-left: 200px;
+    width: 1000px;
 }
 
 .toolbarText{
     text-decoration: none;
     color: black;
     padding: 100px;
+}
+
+.compName{
+    color: navy;
+    text-decoration: none;
 }
