@@ -2,20 +2,22 @@ header{
     color: black;
     text-align: center;
     background-color: aqua;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
 
 #mainBod{
     padding-left: 200px;
     width: 1000px;
 }
 
-#toolbarText{
+.toolbarText{
     text-decoration: none;
     color: black;
+    padding: 100px;
 }
 
 .compName{
-    color: red;
+    color: navy;
     text-decoration: none;
 }
