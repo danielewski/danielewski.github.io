@@ -9,7 +9,28 @@ header {
     margin-top: -10px;
     font-size: 20px;
     box-shadow: 10px 10px 20px 1px gray;
-    
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.educationPoint {
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background-color: rgba(98, 153, 255, .3);
+    box-shadow: 10px 10px 20px 1px gray;
+}
+
+.minorPoint {
+    margin-left: 50px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background-color: rgba(98, 153, 255, .3);
+    box-shadow: 10px 10px 20px 1px gray;
 }
 
 .toolbarText {
@@ -23,18 +44,17 @@ header {
     border-color: white;
 }
 
-
-#school{
-   padding-top: 50px;
+#school {
+    padding-top: 50px;
     padding-left: 100px;
 }
 
-#courses{
+#courses {
     padding-left: 50px;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
-html{
+html {
     background-color: #E9EBEE;
     font-family: "Lucida Console", Monaco, monospace;
 }
@@ -42,16 +62,17 @@ html{
 .columnSmall {
     float: left;
     width: 35%;
-  }
+}
 
 .columnMed {
     float: left;
     width: 50%;
 }
-  
-  /* Clear floats after the columns */
+
+/* Clear floats after the columns */
+
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
-  }
+    content: "";
+    display: table;
+    clear: both;
+}
