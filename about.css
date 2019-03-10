@@ -10,10 +10,31 @@ header{
     font-size: 20px;
 }
 
-
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
 
 #mainBod{
     text-align: center;
+}
+
+h3{
+    padding-top: 250px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#textBox{
+    margin-left: 150px;
+    text-align: left;
 }
 
 
@@ -24,7 +45,8 @@ header{
 }
 
 img{
-    height: 350px;
+    padding-top: 50px;
+    height: 700px;
 }
 
 .compName{
