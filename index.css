@@ -1,13 +1,18 @@
 header{
     color: black;
     text-align: center;
+    background-color: aqua;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 
 body{
     text-align: center;
 }
 
-#toolbarText{
+.toolbarText{
     text-decoration: none;
     color: black;
+    padding: 100px;
 }
