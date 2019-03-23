@@ -1,5 +1,5 @@
 
-ul {
+ul.header {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,6 +7,13 @@ ul {
     background-color: #6299ff;
   }
   
+  ul.body{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
   li {
     float: left;
   }
@@ -27,7 +34,7 @@ ul {
   .active {
     background-color: #4CAF50;
   }
-  
+
 li {
     padding-top: 10px;
     padding-bottom: 10px;
