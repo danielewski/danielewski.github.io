@@ -1,27 +1,31 @@
-header {
-    color: black;
-    text-align: center;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #6299ff;
-    height: 50px;
-    padding-top: 20px;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
-    font-size: 20px;
-    box-shadow: 10px 10px 20px 1px gray;
-    
-}
-
-.toolbarText {
-    text-decoration: none;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
     color: white;
-    margin: 100px;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 15px;
-    padding: 5px;
-    border-color: white;
-}
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }
 
 .column {
     float: left;
