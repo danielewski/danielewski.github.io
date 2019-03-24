@@ -81,6 +81,10 @@
         background-color: #E9EBEE;
         font-family: "Lucida Console", Monaco, monospace;
     }
+    div#courses p:before{
+        content:"\2022  ";
+        word-wrap: normal;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -117,6 +121,11 @@
     }
     .active {
         background-color: #8ab3ff;
+    }
+
+    div#courses p:before{
+            content:"\2022  ";
+            word-wrap: normal;
     }
     .educationPoint1 {
         padding: 10px;

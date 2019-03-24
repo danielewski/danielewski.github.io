@@ -14,6 +14,7 @@
     li {
         display: inline-block;
     }
+
     li a {
         font-size: 3vw;
         display: block;
@@ -32,6 +33,12 @@
     .active {
         background-color: #8ab3ff;
     }
+    
+    p:before{
+        content:"\2022  ";
+        word-wrap: normal;
+    }
+
     h3 {
         margin-top: 0px;
     }
@@ -71,7 +78,9 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
+        white-space: nowrap;
     }
+    
     li {
         float: left;
     }
@@ -90,6 +99,12 @@
     }
     h3 {
         margin-top: 0px;
+    }
+    p:before{
+        content:"\2022  ";      
+    }
+    p{
+        white-space: normal;
     }
     #mainBod {
         padding-top: 50px;
