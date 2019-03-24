@@ -4,6 +4,10 @@ ul.header {
     padding: 0;
     overflow: hidden;
     background-color: #6299ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
   }
   
   li {
