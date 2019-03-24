@@ -36,6 +36,17 @@
     text-align: center;
     padding-top: 60px;
   }
+
+  #mobileResume{
+    display: inherit;
+  }
+
+  #desktopResume{
+    display: none;
+  }
+  #linkingButtons{
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -74,5 +85,18 @@
   }
   .active {
     background-color: #8ab3ff;
+  }
+
+  #mobileResume{
+    display: none;
+    
+  }
+
+  #desktopResume{
+    display: inherit;
+  }
+
+  #linkingButtons{
+    display: inline-block;
   }
 }
