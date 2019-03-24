@@ -1,68 +1,114 @@
-ul.header {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #6299ff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%
-  }
-  
-ul.body{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+@media only screen and (max-width: 768px) {
+    ul.header {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #6299ff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    li {
+        display: inline-block;
+    }
+    li a {
+        font-size: 10px;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px 14px;
+        text-decoration: none;
+    }
+    html {
+        background-color: #E9EBEE;
+        font-family: "Lucida Console", Monaco, monospace;
+    }
+    li a:hover {
+        background-color: #6d92d8;
+    }
+    .active {
+        background-color: #8ab3ff;
+    }
+    h3 {
+        margin-top: 0px;
+    }
+    #mainBod {
+        padding-top: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+    .experiencePoint {
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        background-color: rgba(98, 153, 255, .3);
+        box-shadow: 10px 10px 20px 1px gray;
+    }
+    .compName {
+        color: navy;
+        text-decoration: none;
+    }
 }
 
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #6d92d8;
-  }
-
-  .active {
-    background-color: #8ab3ff;
-  }
-
-h3 {
-    margin-top: 0px;
-}
-
-
-#mainBod {
-    padding-top: 50px;
-    padding-left: 200px;
-    width: 1000px;
-}
-
-.experiencePoint {
-    padding: 10px;
-    margin-bottom: 30px;
-    border-radius: 15px;
-    background-color: rgba(98, 153, 255, .3);
-    box-shadow: 10px 10px 20px 1px gray;
-}
-
-.compName {
-    color: navy;
-    text-decoration: none;
-}
-
-html {
-    background-color: #E9EBEE;
-    font-family: "Lucida Console", Monaco, monospace;
+@media only screen and (min-width: 768px) {
+    ul.header {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #6299ff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%
+    }
+    ul.body {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: #6d92d8;
+    }
+    .active {
+        background-color: #8ab3ff;
+    }
+    h3 {
+        margin-top: 0px;
+    }
+    #mainBod {
+        padding-top: 50px;
+        padding-left: 200px;
+        width: 1000px;
+    }
+    .experiencePoint {
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        background-color: rgba(98, 153, 255, .3);
+        box-shadow: 10px 10px 20px 1px gray;
+    }
+    .compName {
+        color: navy;
+        text-decoration: none;
+    }
+    html {
+        background-color: #E9EBEE;
+        font-family: "Lucida Console", Monaco, monospace;
+    }
 }
